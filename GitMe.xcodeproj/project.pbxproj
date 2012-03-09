@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE84A670150AACF400B46FDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE84A66F150AACF400B46FDB /* UIKit.framework */; };
+		EE84A672150AACF400B46FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE84A671150AACF400B46FDB /* Foundation.framework */; };
+		EE84A674150AACF400B46FDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE84A673150AACF400B46FDB /* CoreGraphics.framework */; };
+		EE84A67A150AACF500B46FDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE84A678150AACF500B46FDB /* InfoPlist.strings */; };
+		EE84A67C150AACF500B46FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE84A67B150AACF500B46FDB /* main.m */; };
+		EE84A680150AACF500B46FDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE84A67F150AACF500B46FDB /* AppDelegate.m */; };
+		EE84A683150AACF500B46FDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE84A682150AACF500B46FDB /* ViewController.m */; };
+		EE84A686150AACF500B46FDB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE84A684150AACF500B46FDB /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE84A66B150AACF400B46FDB /* GitMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE84A66F150AACF400B46FDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE84A671150AACF400B46FDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE84A673150AACF400B46FDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE84A677150AACF500B46FDB /* GitMe-Info.plist */ = {isa = PBXFileReference; path = "GitMe-Info.plist"; sourceTree = "<group>"; };
+		EE84A679150AACF500B46FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE84A67B150AACF500B46FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE84A67D150AACF500B46FDB /* GitMe-Prefix.pch */ = {isa = PBXFileReference; path = "GitMe-Prefix.pch"; sourceTree = "<group>"; };
+		EE84A67E150AACF500B46FDB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE84A67F150AACF500B46FDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE84A681150AACF500B46FDB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EE84A682150AACF500B46FDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE84A685150AACF500B46FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE84A668150AACF400B46FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE84A670150AACF400B46FDB /* UIKit.framework in Frameworks */,
+				EE84A672150AACF400B46FDB /* Foundation.framework in Frameworks */,
+				EE84A674150AACF400B46FDB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE84A660150AACF400B46FDB = {
+			isa = PBXGroup;
+			children = (
+				EE84A675150AACF400B46FDB /* GitMe */,
+				EE84A66E150AACF400B46FDB /* Frameworks */,
+				EE84A66C150AACF400B46FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE84A66C150AACF400B46FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE84A66B150AACF400B46FDB /* GitMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE84A66E150AACF400B46FDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE84A66F150AACF400B46FDB /* UIKit.framework */,
+				EE84A671150AACF400B46FDB /* Foundation.framework */,
+				EE84A673150AACF400B46FDB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE84A675150AACF400B46FDB /* GitMe */ = {
+			isa = PBXGroup;
+			children = (
+				EE84A67E150AACF500B46FDB /* AppDelegate.h */,
+				EE84A67F150AACF500B46FDB /* AppDelegate.m */,
+				EE84A681150AACF500B46FDB /* ViewController.h */,
+				EE84A682150AACF500B46FDB /* ViewController.m */,
+				EE84A684150AACF500B46FDB /* ViewController.xib */,
+				EE84A676150AACF500B46FDB /* Supporting Files */,
+			);
+			path = GitMe;
+			sourceTree = "<group>";
+		};
+		EE84A676150AACF500B46FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE84A677150AACF500B46FDB /* GitMe-Info.plist */,
+				EE84A678150AACF500B46FDB /* InfoPlist.strings */,
+				EE84A67B150AACF500B46FDB /* main.m */,
+				EE84A67D150AACF500B46FDB /* GitMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE84A66A150AACF400B46FDB /* GitMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE84A689150AACF500B46FDB /* Build configuration list for PBXNativeTarget "GitMe" */;
+			buildPhases = (
+				EE84A667150AACF400B46FDB /* Sources */,
+				EE84A668150AACF400B46FDB /* Frameworks */,
+				EE84A669150AACF400B46FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitMe;
+			productName = GitMe;
+			productReference = EE84A66B150AACF400B46FDB /* GitMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE84A662150AACF400B46FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EE84A665150AACF400B46FDB /* Build configuration list for PBXProject "GitMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE84A660150AACF400B46FDB;
+			productRefGroup = EE84A66C150AACF400B46FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE84A66A150AACF400B46FDB /* GitMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE84A669150AACF400B46FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE84A67A150AACF500B46FDB /* InfoPlist.strings in Resources */,
+				EE84A686150AACF500B46FDB /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE84A667150AACF400B46FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE84A67C150AACF500B46FDB /* main.m in Sources */,
+				EE84A680150AACF500B46FDB /* AppDelegate.m in Sources */,
+				EE84A683150AACF500B46FDB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE84A678150AACF500B46FDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE84A679150AACF500B46FDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE84A684150AACF500B46FDB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE84A685150AACF500B46FDB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE84A687150AACF500B46FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE84A688150AACF500B46FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE84A68A150AACF500B46FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitMe/GitMe-Prefix.pch";
+				INFOPLIST_FILE = "GitMe/GitMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE84A68B150AACF500B46FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitMe/GitMe-Prefix.pch";
+				INFOPLIST_FILE = "GitMe/GitMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE84A665150AACF400B46FDB /* Build configuration list for PBXProject "GitMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE84A687150AACF500B46FDB /* Debug */,
+				EE84A688150AACF500B46FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE84A689150AACF500B46FDB /* Build configuration list for PBXNativeTarget "GitMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE84A68A150AACF500B46FDB /* Debug */,
+				EE84A68B150AACF500B46FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE84A662150AACF400B46FDB /* Project object */;
+}
