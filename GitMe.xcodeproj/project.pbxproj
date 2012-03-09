@@ -22,13 +22,13 @@
 		EE84A66F150AACF400B46FDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE84A671150AACF400B46FDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE84A673150AACF400B46FDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EE84A677150AACF500B46FDB /* GitMe-Info.plist */ = {isa = PBXFileReference; path = "GitMe-Info.plist"; sourceTree = "<group>"; };
+		EE84A677150AACF500B46FDB /* GitMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitMe-Info.plist"; sourceTree = "<group>"; };
 		EE84A679150AACF500B46FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE84A67B150AACF500B46FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE84A67D150AACF500B46FDB /* GitMe-Prefix.pch */ = {isa = PBXFileReference; path = "GitMe-Prefix.pch"; sourceTree = "<group>"; };
-		EE84A67E150AACF500B46FDB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE84A67D150AACF500B46FDB /* GitMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitMe-Prefix.pch"; sourceTree = "<group>"; };
+		EE84A67E150AACF500B46FDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE84A67F150AACF500B46FDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE84A681150AACF500B46FDB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EE84A681150AACF500B46FDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EE84A682150AACF500B46FDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE84A685150AACF500B46FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
